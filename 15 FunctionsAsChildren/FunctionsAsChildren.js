@@ -4,7 +4,6 @@ function Numbers(props) {
     for (var i = 1; i < props.upto; i++) {
         numbersList.push(props.children(i));
     }
-    console.log('numbersList:   ', numbersList);
     return <div>{numbersList}</div> 
 }
 
